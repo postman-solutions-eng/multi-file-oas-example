@@ -1,0 +1,21 @@
+id = a587eccd-bbf8-4cac-b9d4-f0782dfa2336
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = swagger
+files[] = {"path":"components/error.yml","metaData":{}}
+files[] = {"path":"components/pet.yml","metaData":{}}
+files[] = {"path":"components/pets.yml","metaData":{}}
+files[] = {"path":"openapi.yml","metaData":{}}
+files[] = {"path":"paths/pet.yml","metaData":{}}
+files[] = {"path":"paths/pets.yml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
+rootFiles[] = openapi.yml
